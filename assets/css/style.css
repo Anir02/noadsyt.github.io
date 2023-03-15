@@ -76,3 +76,15 @@
     color: #2d2e32;
     font-weight: 600;
 }
+
+@media only screen and (max-width: 650px) {
+    .dashboard {
+        grid-column: 1 / 13;
+        grid-row: 1 / 2; 
+    }
+    
+    .videoplayer {
+        grid-column: 4 / 13;
+        grid-row: 2 / 11; 
+    }
+}
